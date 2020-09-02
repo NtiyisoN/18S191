@@ -169,7 +169,7 @@ end
 
 # ╔═╡ 552129ae-ebca-11ea-1fa1-3f9fa00a2601
 begin
-	Pkg.add.(["Images", "ImageIO", "ImageMagick"])
+	Pkg.add(["Images", "ImageIO", "ImageMagick"])
 	using Images
 end
 
